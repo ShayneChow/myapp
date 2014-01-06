@@ -5,6 +5,9 @@ gem 'rails', '4.0.2'
 
 gem 'bootstrap-sass', '2.0.4'
 
+#加密
+gem 'bcrypt-ruby'
+
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 
@@ -37,6 +40,7 @@ end
 group :development, :test do
 	gem 'sqlite3'
 	gem 'rspec-rails'
+  gem 'annotate'
 end
 
 # Use ActiveModel has_secure_password
